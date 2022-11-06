@@ -1,0 +1,105 @@
+
+.TodolistPage-header {
+    width: 100%;
+    height: 10%;
+    border-color: rgb(181, 230, 29);
+    border-style: inset;
+    border-width: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.TodolistPage-header-username{
+    margin-right: 50px;
+}
+.TodolistPage-section-container {
+    width: 100%;
+    min-height: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TodolistPage-section-left-menu {
+    /* position: sticky; */
+    /* left: 0px;
+    top: 11%; */
+    width: 20%;
+    /* min-height: 90%; */
+    height: 100%;
+    background-color: rgb(181, 230, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.TodolistPage-left-menu-logout {
+    justify-self: flex-end;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
+.TodolistPage-left-menu-logout:hover{
+    cursor: pointer;
+
+}
+.TodolistPage-section-listdown-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.TodolistPage-add-new-acivity-btn {
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    height: auto;
+    width: fit-content;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    border: 5px solid rgb(163, 72, 165);
+}
+
+.TodolistPage-add-new-acivity-btn:hover {
+    cursor: pointer;
+    background-color: rgb(163, 72, 165);
+}
+
+.TodolistPage-tablehead {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(16, 85, 205);
+
+}
+
+.TodolistPage-tablehead-item {
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TodolistPage-tablehead-item-p {
+    padding: 0px;
+    width: 100px;
+    padding: 5px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

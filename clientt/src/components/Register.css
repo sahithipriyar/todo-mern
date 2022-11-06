@@ -1,0 +1,110 @@
+.register-page-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5683D;
+
+}
+
+.register-page-main-container{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    background-color: white;
+    box-shadow: 1px 1px 20px black;
+}
+.register-page-usericon-container{
+    position: relative;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px gray;
+}
+.register-page-member-register-name{
+    font-size: 30px;
+    color: gray;
+    margin-top: -30px;
+}
+.register-page-input-username{
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 6px;
+}
+.register-page-input-password{
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+.register-page-input-password:focus{
+    background-color: white;
+}
+.register-page-input-confirm-password{
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+.register-page-input-confirm-password:focus{
+    background-color: white;
+}
+.register-page-btn-register{
+    width: 80%;
+    background-color: skyblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.register-page-btn-register:hover{
+    cursor: pointer;
+}
+.register-page-error-message{
+    opacity: 0;
+    color: red;
+    margin-bottom: 40px;
+}
+.register-page-login-link{
+    color: rgb(43, 182, 224);
+    font-size: 20px;
+   
+}
+.register-page-login-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

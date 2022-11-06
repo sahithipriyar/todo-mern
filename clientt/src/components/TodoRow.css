@@ -1,0 +1,61 @@
+.TodolistPage-tablerow{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+
+}
+.TodolistPage-tablerow-item{
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TodolistPage-tablerow-item-p{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    padding: 5px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TodolistPage-tablerow-end-pause-action{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TodolistPage-tablerow-end-pause-action-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.TodolistPage-tablerow-resume_start-action{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TodolistPage-tablerow-resume_start-action:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.TodolistPage-tablerow-resume_null-action{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
